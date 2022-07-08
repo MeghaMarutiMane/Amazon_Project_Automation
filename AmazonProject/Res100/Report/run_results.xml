@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Transaction">
+<Data>
+    <Name>SignIn</Name>
+    <Description>Transaction "SignIn" started.</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eac49d774c8e40ecb478e1e3ae1c5951</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>SignIn</Name>
+    <Description>Transaction "SignIn" ended with "Pass" status (Total Duration: 0.0133 sec).</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>3a98ffd3b88f4153b234d8a2a56ed453</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>CreateAccount</Name>
+    <Description>Transaction "CreateAccount" started.</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eac49d774c8e40ecb478e1e3ae1c5951</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>CreateAccount</Name>
+    <Description>Transaction "CreateAccount" ended with "Pass" status (Total Duration: 0.0134 sec).</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>3a98ffd3b88f4153b234d8a2a56ed453</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Login</Name>
+    <Description>Transaction "Login" started.</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eac49d774c8e40ecb478e1e3ae1c5951</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Login</Name>
+    <Description>Transaction "Login" ended with "Pass" status (Total Duration: 0.0164 sec).</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>3a98ffd3b88f4153b234d8a2a56ed453</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateLogin</Name>
+    <Description>Transaction "ValidateLogin" started.</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eac49d774c8e40ecb478e1e3ae1c5951</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateLogin</Name>
+    <Description>Transaction "ValidateLogin" ended with "Pass" status (Total Duration: 0.0154 sec).</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>3a98ffd3b88f4153b234d8a2a56ed453</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PetSupplies</Name>
+    <Description>Transaction "PetSupplies" started.</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eac49d774c8e40ecb478e1e3ae1c5951</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PetSupplies</Name>
+    <Description>Transaction "PetSupplies" ended with "Pass" status (Total Duration: 0.0112 sec).</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>3a98ffd3b88f4153b234d8a2a56ed453</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PSContent</Name>
+    <Description>Transaction "PSContent" started.</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eac49d774c8e40ecb478e1e3ae1c5951</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PSContent</Name>
+    <Description>Transaction "PSContent" ended with "Pass" status (Total Duration: 0.0553 sec).</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>3a98ffd3b88f4153b234d8a2a56ed453</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>BirdsTab</Name>
+    <Description>Transaction "BirdsTab" started.</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eac49d774c8e40ecb478e1e3ae1c5951</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>BirdsTab</Name>
+    <Description>Transaction "BirdsTab" ended with "Pass" status (Total Duration: 0.0135 sec).</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>3a98ffd3b88f4153b234d8a2a56ed453</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateBI</Name>
+    <Description>Transaction "ValidateBI" started.</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eac49d774c8e40ecb478e1e3ae1c5951</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateBI</Name>
+    <Description>Transaction "ValidateBI" ended with "Pass" status (Total Duration: 0.0113 sec).</Description>
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>3a98ffd3b88f4153b234d8a2a56ed453</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "Chrome.exe",1</Name>
+    <StartTime>2022-07-04 23:38:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>5f8fd8493b2d458ca103e762c4306a09</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>BOLTZ Bird Food for Budgies</Name>
+    <ErrorText>Cannot identify the object "BOLTZ Bird Food for Budgies" (of class Image).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"BOLTZ&amp;nbsp;Bird&amp;nbsp;Food&amp;nbsp;for&amp;nbsp;Budgies"&amp;nbsp;(of&amp;nbsp;class&amp;nbsp;Image).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;this&amp;nbsp;object's&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = Image&lt;br&gt;Html Tag = IMG&lt;br&gt;_xpath = //DIV[1]/DIV[1]/DIV[1]/DIV[2]/SPAN[1]/A[1]/DIV[1]/IMG[1]&lt;br&gt;|Width = 159&lt;br&gt;Visible = -1&lt;br&gt;Name = Image&lt;br&gt;Image Type = Image Link&lt;br&gt;Html Id = &lt;br&gt;Height = 192&lt;br&gt;file name = 7169GpTvmgL._AC_UL320_.jpg&lt;br&gt;DHTML Class = s-image&lt;br&gt;Alt = BOLTZ Bird Food for Budgies - Mix Seeds 1.2 KG&lt;br&gt;</Description>
+    <StartTime>2022-07-04 23:39:16</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user262\Documents\AmazonProject\User_Functions.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[BirdsTab]]></FunctionName>
+          <Scripts><![CDATA[Browser("Online Shopping site in").Page("Bird Supplies: Buy Bird").Image("BOLTZ Bird Food for Budgies").Click]]></Scripts>
+          <LineNo><![CDATA[71]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user262\Documents\AmazonProject\User_Functions.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[ValidateBI]]></FunctionName>
+          <Scripts><![CDATA[BirdsTab()]]></Scripts>
+          <LineNo><![CDATA[81]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[ValidateBI()]]></Scripts>
+          <LineNo><![CDATA[12]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Bird Supplies: Buy Bird]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[BOLTZ Bird Food for Budgies]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;object&nbsp;"BOLTZ&nbsp;Bird&nbsp;Food&nbsp;for&nbsp;Budgies"&nbsp;(of&nbsp;class&nbsp;Image).<br/>Verify&nbsp;that&nbsp;this&nbsp;object's&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Link]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[IMG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[BOLTZ Bird Food for Budgies - Mix Seeds 1.2 KG]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5720c1dfbaa94e4aa77f670ee3510ae7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5b1c1132-a978-49cf-9584-490beb5b449d.jpeg" highlight="0,0,1600,730" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-04 23:39:33</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>b38a07f91ec14fc0ae5d4428c8ca9c07</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-04 23:39:16</StartTime>
+    <Duration>17</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>03467f81179b4721829da8f52fa9f1e6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-04 23:38:38</StartTime>
+    <Duration>55</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>31db769326624dccb407be27d6053d36</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-04 23:38:30</StartTime>
+    <Duration>63</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>208b62f728634f10a70c1200a1ad9ffa</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user262</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-28</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res100</ResultName>
+    <RunStartTime>2022-07-04 23:38:30</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

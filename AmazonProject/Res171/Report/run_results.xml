@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateBI</Name>
+    <Description>Transaction "ValidateBI" started.</Description>
+    <StartTime>2022-07-06 00:15:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>88fd1a7264d844e396292f169e9eb187</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateBI</Name>
+    <Description>Transaction "ValidateBI" ended with "Pass" status (Total Duration: 0.0113 sec).</Description>
+    <StartTime>2022-07-06 00:15:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>57a02f755bec497f8a75aed3a2019dc3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>AddtoCart</Name>
+    <Description>Transaction "AddtoCart" started.</Description>
+    <StartTime>2022-07-06 00:15:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>88fd1a7264d844e396292f169e9eb187</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>AddtoCart</Name>
+    <Description>Transaction "AddtoCart" ended with "Pass" status (Total Duration: 0.0134 sec).</Description>
+    <StartTime>2022-07-06 00:15:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>57a02f755bec497f8a75aed3a2019dc3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>LoginCart</Name>
+    <Description>Transaction "LoginCart" started.</Description>
+    <StartTime>2022-07-06 00:15:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>88fd1a7264d844e396292f169e9eb187</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>LoginCart</Name>
+    <Description>Transaction "LoginCart" ended with "Pass" status (Total Duration: 0.0134 sec).</Description>
+    <StartTime>2022-07-06 00:15:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>57a02f755bec497f8a75aed3a2019dc3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "Chrome.exe",1</Name>
+    <StartTime>2022-07-06 00:15:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>1dbedbd5ca06462f880e1c4d23e2e9ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-06 00:15:30</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>08afa52e1a9b4b81ade4fc20adf55a80</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-06 00:15:25</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>11f2d39ebc634de4b2fb596b84cb21f6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user262</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-28</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res171</ResultName>
+    <RunStartTime>2022-07-06 00:15:25</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

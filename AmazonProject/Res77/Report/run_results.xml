@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Transaction">
+<Data>
+    <Name>SignIn</Name>
+    <Description>Transaction "SignIn" started.</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>983d227463094fe2a9c117e757581e07</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>SignIn</Name>
+    <Description>Transaction "SignIn" ended with "Pass" status (Total Duration: 0.0123 sec).</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>50751b786218466393a89bf291f65832</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>CreateAccount</Name>
+    <Description>Transaction "CreateAccount" started.</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>983d227463094fe2a9c117e757581e07</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>CreateAccount</Name>
+    <Description>Transaction "CreateAccount" ended with "Pass" status (Total Duration: 0.0106 sec).</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>50751b786218466393a89bf291f65832</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Login</Name>
+    <Description>Transaction "Login" started.</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>983d227463094fe2a9c117e757581e07</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Login</Name>
+    <Description>Transaction "Login" ended with "Pass" status (Total Duration: 0.0118 sec).</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>50751b786218466393a89bf291f65832</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateLogin</Name>
+    <Description>Transaction "ValidateLogin" started.</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>983d227463094fe2a9c117e757581e07</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateLogin</Name>
+    <Description>Transaction "ValidateLogin" ended with "Pass" status (Total Duration: 0.0072 sec).</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>50751b786218466393a89bf291f65832</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PetSupplies</Name>
+    <Description>Transaction "PetSupplies" started.</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>983d227463094fe2a9c117e757581e07</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PetSupplies</Name>
+    <Description>Transaction "PetSupplies" ended with "Pass" status (Total Duration: 0.0066 sec).</Description>
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>50751b786218466393a89bf291f65832</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "Chrome.exe",1</Name>
+    <StartTime>2022-07-04 13:12:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>bd300ceecdf14cc5b6c66fb0456d98f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Wrong number of arguments or invalid property assignment: 'ValidateLogin'</Name>
+    <ErrorText>Wrong number of arguments or invalid property assignment: 'ValidateLogin'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Users\user262\Documents\AmazonProject\User_Functions.qfl&lt;BR/&gt;Line (51): &amp;quot;ValidateLogin()&amp;quot;.</Description>
+    <StartTime>2022-07-04 13:12:37</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user262\Documents\AmazonProject\User_Functions.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[PetSupplies]]></FunctionName>
+          <Scripts><![CDATA[ValidateLogin()]]></Scripts>
+          <LineNo><![CDATA[51]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[PetSupplies()]]></Scripts>
+          <LineNo><![CDATA[9]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>88f1df466c4a4df094b4d9fe5e9e6c3c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\78fc0421-aeff-4f1c-8429-cc5b94dacc5c.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-04 13:12:57</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>fe22a57f16f14d10b6b14d850588f2be</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-04 13:12:36</StartTime>
+    <Duration>21</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>770b8643ae904c5eb7e50a942613d10a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-04 13:12:30</StartTime>
+    <Duration>27</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2836188dcb3043029b80f4cab69582c1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user262</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-28</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res77</ResultName>
+    <RunStartTime>2022-07-04 13:12:30</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

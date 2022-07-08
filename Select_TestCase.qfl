@@ -1,0 +1,124 @@
+﻿Function ExecuteTest(TC_ID)
+	Select Case TC_ID
+		Case "TC_01"
+		            services.StartTransaction "TC_01"
+		            Environment.Value("Result")=SignIn()
+		            services.EndTransaction "TC_01"
+		
+		Case "TC_02"
+		            services.StartTransaction "TC_02"
+		            Environment.Value("Result")=ValidateLogin()
+		            services.EndTransaction "TC_02"
+		            
+		 Case "TC_03"
+		           services.StartTransaction "TC_03"
+		           Environment.Value("Result")=Login()
+		           services.EndTransaction "TC_03"
+		            
+		 Case "TC_04"
+		           services.StartTransaction "TC_04"
+		            Environment.Value("Result")=Logout()
+		            services.EndTransaction "TC_04"
+		  
+		  Case "TC_05"
+		           services.StartTransaction "TC_05"
+		           Environment.Value("Result")=Login()
+		           Environment.Value("Result")=PetSupplies()
+		           Environment.Value("Result")=Logout()
+		           services.EndTransaction "TC_05"
+		
+		   Case "TC_06"
+		           services.StartTransaction "TC_06"
+		            Environment.Value("Result")=Login
+		            Environment.Value("Result")=PetSupplies()  
+                          Environment.Value("Result")=PSContent()	
+                          Environment.Value("Result")=Logout()
+		           services.EndTransaction "TC_06"
+		
+		   Case "TC_07"
+		            services.StartTransaction "TC_07"
+		            Environment.Value("Result")=Login
+		            Environment.Value("Result")=PetSupplies()  
+                          Environment.Value("Result")=BirdsTab() 	
+                          Environment.Value("Result")=Logout()
+		           services.EndTransaction "TC_07"
+		   
+		                             
+                   Case "TC_08"
+                           services.StartTransaction "TC_07"
+		            Environment.Value("Result")=Login
+		            Environment.Value("Result")=PetSupplies()  
+                          Environment.Value("Result")=BirdsTab() 	
+                          Environment.Value("Result")=ValidateBI()  
+                          Environment.Value("Result")=Logout()
+		           services.EndTransaction "TC_07"
+                      
+		     Case "TC_09"
+		            services.StartTransaction "TC_09"
+		            Environment.Value("Result")=Login
+		            Environment.Value("Result")=PetSupplies()  
+                          Environment.Value("Result")=BirdsTab() 	
+                          Environment.Value("Result")=ValidateBI()  
+                          Environment.Value("Result")=AddtoCart()  
+                          Environment.Value("Result")=Logout()
+                          services.EndTransaction "TC_09"        
+                           
+		         Case "TC_10"
+		          services.StartTransaction "TC_10"
+		           Environment.Value("Result")=Login()
+		           Environment.Value("Result")=LoginCart()  
+		           Environment.Value("Result")=Logout()
+                          services.EndTransaction "TC_10"	
+                          
+                         Case "TC_11"
+		          services.StartTransaction "TC_11"
+		           Environment.Value("Result")=Recording1()
+		           services.EndTransaction "TC_11"	
+                      
+                          Case "TC_12"
+		          services.StartTransaction "TC_12"
+		           Environment.Value("Result")=Recording2()
+		           services.EndTransaction "TC_12"	
+                       Case "TC_13"
+		          services.StartTransaction "TC_13"
+		           Environment.Value("Result")=Recording3()
+		           services.EndTransaction "TC_13"	
+		           
+		           Case "TC_14"
+		          services.StartTransaction "TC_14"
+		           Environment.Value("Result")=Recording4()
+		           services.EndTransaction "TC_14"	
+                       
+                       Case "TC_15"
+		          services.StartTransaction "TC_15"
+		           Environment.Value("Result")=Recording5()
+		           services.EndTransaction "TC_15"	
+                       
+                       Case "TC_16"
+		          services.StartTransaction "TC_16"
+		           Environment.Value("Result")=BuyProduct()
+		           services.EndTransaction "TC_16"	
+                      
+                     Case "TC_17"
+		          services.StartTransaction "TC_17"
+		           Environment.Value("Result")=PaymentOption()
+		           services.EndTransaction "TC_17"  
+
+                      Case "TC_18"
+		          services.StartTransaction "TC_18"
+		          Environment.Value("Result")=AddQuantity()
+		          services.EndTransaction "TC_18"  
+		          
+		        Case "TC_19"
+		          services.StartTransaction "TC_19"
+		           Environment.Value("Result")=BuyProduct()
+		           services.EndTransaction "TC_19"	
+		         
+		        Case "TC_20"
+		          services.StartTransaction "TC_20"
+		           Environment.Value("Result")=DeleteProduct()
+		           services.EndTransaction "TC_20"	
+		                              
+         End Select
+         
+End Function

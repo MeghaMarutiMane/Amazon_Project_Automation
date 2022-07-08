@@ -1,0 +1,166 @@
+﻿Function Recording1()
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+URL=DataTable.Value("Url","Test Data")
+Browser(browserObject).Navigate URL
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Sign in_2").Click
+Result=Browser("Online Shopping site in").Page("Amazon Sign In").WebElement("Need help?_2").GetROProperty("text")
+If instr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "Recording1" , "Pass"
+Recording1="Pass"
+Else
+ Reporter.ReportEvent micFail, "Recording1" , "Fail"
+Recording1="Fail"
+End if
+End Function
+'____________________________________________________________________________________________________________________________________
+Function Recording2()
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+URL=DataTable.Value("Url","Test Data")
+Browser(browserObject).Navigate URL
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Sign in_2").Click
+Browser("Online Shopping site in").Page("Amazon Sign In").WebButton("Continue").Click
+Result=Browser("Online Shopping site in").Page("Amazon Sign In").WebElement("Enter your email or mobile_2").GetROProperty("text")
+If instr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "Recording2" , "Pass"
+Recording2="Pass"
+Else
+ Reporter.ReportEvent micFail, "Recording2" , "Fail"
+Recording2="Fail"
+End if
+End Function
+'________________________________________________________________________________________________________________________________________
+
+
+Function Recording3()
+Dim searchString,Result,UN,Pass
+UN=DataTable.Value("Username","Test Data")
+Pass=DataTable.Value("Password","Test Data")
+searchString=DataTable.Value("Expected_Value","Test Data")
+URL=DataTable.Value("Url","Test Data")
+Browser(browserObject).Navigate URL
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Sign in").Click
+Browser("Online Shopping site in").Page("Amazon Sign In").WebEdit("email").Set UN
+Browser("Online Shopping site in").Page("Amazon Sign In").WebButton("Continue").Click
+Browser("Online Shopping site in").Page("Amazon Sign In").WebEdit("password").SetSecure Pass
+Browser("Online Shopping site in").Page("Amazon Sign In").WebButton("Sign-In").Click
+Result=Browser("Online Shopping site in").Page("Online Shopping site in_2").WebElement("All").GetROProperty("text")
+If instr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "Recording3" , "Pass"
+Recording3="Pass"
+Else
+ Reporter.ReportEvent micFail, "Recording3" , "Fail"
+Recording3="Fail"
+End if
+End Function
+
+Function Recording4()
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+URL=DataTable.Value("Url","Test Data")
+Browser(browserObject).Navigate URL
+Browser("Online Shopping site in").Page("Online Shopping site in_2").Link("Hello, megha Account &").Click
+Browser("Online Shopping site in").Page("Your Account").Link("Sign Out").Click
+Result=Browser("Online Shopping site in").Page("Amazon Sign In").WebElement("Sign-In").GetROProperty("text")
+If instr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "Recording4" , "Pass"
+Recording4="Pass"
+Else
+ Reporter.ReportEvent micFail, "Recording4" , "Fail"
+Recording4="Fail"
+End if
+End Function
+
+Function Recording5()
+Dim searchString,Result,UN,Pass
+UN=DataTable.Value("Username","Test Data")
+Pass=DataTable.Value("Password","Test Data")
+URL=DataTable.Value("Url","Test Data")
+Browser(browserObject).Navigate URL
+searchString=DataTable.Value("Expected_Value","Test Data")
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("Hello, Sign in Account").Click
+Browser("Online Shopping site in").Page("Amazon Sign In").WebEdit("email").Set UN
+Browser("Online Shopping site in").Page("Amazon Sign In").WebButton("Continue").Click
+Browser("Online Shopping site in").Page("Amazon Sign In").WebEdit("password").SetSecure Pass
+Browser("Online Shopping site in").Page("Amazon Sign In").WebButton("Sign-In").Click
+Browser("Online Shopping site in").Page("Online Shopping site in_2").Link("Pet Supplies").Highlight
+Browser("Online Shopping site in").Page("Online Shopping site in_2").Link("Pet Supplies").Click
+Result=Browser("Online Shopping site in").Page("Pet Supplies: Buy Pet").WebElement("Pet Supplies").GetROProperty("text")
+If instr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "Recording5" , "Pass"
+Recording5="Pass"
+Else
+ Reporter.ReportEvent micFail, "Recording5" , "Fail"
+Recording5="Fail"
+End if
+End Function
+
+
+Function BuyProduct()
+ Dim searchString,Result
+ searchString=DataTable.Value("Expected_Value","Test Data")
+
+Browser("Online Shopping site in").Page("Amazon Sign In").WebButton("Sign-In").Click
+Browser("Online Shopping site in").Page("Online Shopping site in_2").Link("5 items in cart").Click
+Browser("Online Shopping site in").Page("Amazon.in Shopping Cart").Image("BOLTZ Bird Food for Budgies").Click
+Browser("Buy BOLTZ Bird Food for").Page("Buy BOLTZ Bird Food for").WebButton("Buy Now").Click
+Browser("Buy BOLTZ Bird Food for").Page("Select a Payment Method").WebElement("Select a payment method").GetROProperty("text")
+
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "BuyProduct" , "Pass"
+BuyProduct="Pass"
+Else
+ Reporter.ReportEvent micFail, "BuyProduct" , "Fail"
+ BuyProduct="Fail"
+End if
+ End Function
+'_____________________________________________________________________________________________________________________________________________________
+Function DeleteProduct()
+ searchString=DataTable.Value("Expected_Value","Test Data")
+Browser("Online Shopping site in").Page("Page").Link("5 items in cart").Click
+Browser("Online Shopping site in").Page("Amazon.in Shopping Cart").Image("BOLTZ Bird Food for Budgies").Click
+Browser("Online Shopping site in").Page("Amazon.in Shopping Cart").WebButton("Delete BOLTZ Bird Food").Click
+Browser("Online Shopping site in").Page("Amazon.in Shopping Cart").WebElement("Your Amazon Cart is empty.").Check CheckPoint("Your Amazon Cart is empty.")
+If strcomp(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "DeleteProduct" , "Pass"
+DeleteProduct="Pass"
+Else
+ Reporter.ReportEvent micFail, "DeleteProduct" , "Fail"
+ DeleteProduct="Fail"
+End if
+ End Function
+'____________________________________________________________________________________________________________________________________________________
+Function AddQuantity()
+ searchString=DataTable.Value("Expected_Value","Test Data")
+Browser("Online Shopping site in").Page("Online Shopping site in").Link("1 item in cart").Click
+Browser("Online Shopping site in").Page("Amazon.in Shopping Cart").WebElement("a-autoid-4-announce").Click
+Browser("Online Shopping site in").Page("Amazon.in Shopping Cart").Link("6").Click
+Browser("Online Shopping site in").Page("Amazon.in Shopping Cart").WebElement("This seller has a limit").Check CheckPoint("This seller has a limit of 5 per customer. To see if more are available from another seller, go to the product detail page.")
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "AddQuantity" , "Pass"
+AddQuantity="Pass"
+Else
+ Reporter.ReportEvent micFail, "AddQuantity" , "Fail"
+AddQuantity="Fail"
+End if
+End Function
+
+'________________________________________________________________________________________________________________________________________________
+Function BestSeller()
+ searchString=DataTable.Value("Expected_Value","Test Data")
+Browser("Buy BOLTZ Bird Food for").Page("Online Shopping site in").Link("Pet Supplies").Click
+Browser("Buy BOLTZ Bird Food for").Page("Pet Supplies: Buy Pet").Link("Bestsellers").Click
+Browser("Buy BOLTZ Bird Food for").Page("Amazon.in Bestsellers:").WebElement("zg_banner").Click
+Browser("Buy BOLTZ Bird Food for").Page("Amazon.in Bestsellers:").Image("leadup").Highlight
+Browser("Buy BOLTZ Bird Food for").Page("Amazon.in Bestsellers:").Image("leadup").GetROProperty("text")
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, " BestSeller" , "Pass"
+ BestSeller="Pass"
+Else
+ Reporter.ReportEvent micFail, " BestSeller" , "Fail"
+  BestSeller="Fail"
+End if
+End Function
+'______________________________________________________________________________________________________
+

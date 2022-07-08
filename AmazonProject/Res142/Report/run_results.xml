@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name>Run "Chrome.exe",1</Name>
+    <Description>Run "Chrome.exe",1</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>d3ebaac228044685b196d0317510548b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>SystemUtil</Name>
+    <Description>SystemUtil</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>d3ebaac228044685b196d0317510548b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>SignIn</Name>
+    <Description>Transaction "SignIn" started.</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>SignIn</Name>
+    <Description>Transaction "SignIn" ended with "Pass" status (Total Duration: 0.0170 sec).</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>CreateAccount</Name>
+    <Description>Transaction "CreateAccount" started.</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>CreateAccount</Name>
+    <Description>Transaction "CreateAccount" ended with "Pass" status (Total Duration: 0.0222 sec).</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Login</Name>
+    <Description>Transaction "Login" started.</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Login</Name>
+    <Description>Transaction "Login" ended with "Pass" status (Total Duration: 0.0178 sec).</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateLogin</Name>
+    <Description>Transaction "ValidateLogin" started.</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateLogin</Name>
+    <Description>Transaction "ValidateLogin" ended with "Pass" status (Total Duration: 0.0136 sec).</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PetSupplies</Name>
+    <Description>Transaction "PetSupplies" started.</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PetSupplies</Name>
+    <Description>Transaction "PetSupplies" ended with "Pass" status (Total Duration: 0.0131 sec).</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PSContent</Name>
+    <Description>Transaction "PSContent" started.</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>PSContent</Name>
+    <Description>Transaction "PSContent" ended with "Pass" status (Total Duration: 0.0176 sec).</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>BirdsTab</Name>
+    <Description>Transaction "BirdsTab" started.</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>BirdsTab</Name>
+    <Description>Transaction "BirdsTab" ended with "Pass" status (Total Duration: 0.0466 sec).</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateBI</Name>
+    <Description>Transaction "ValidateBI" started.</Description>
+    <StartTime>2022-07-05 20:55:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>ValidateBI</Name>
+    <Description>Transaction "ValidateBI" ended with "Pass" status (Total Duration: 0.0357 sec).</Description>
+    <StartTime>2022-07-05 20:55:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>AddtoCart</Name>
+    <Description>Transaction "AddtoCart" started.</Description>
+    <StartTime>2022-07-05 20:55:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>AddtoCart</Name>
+    <Description>Transaction "AddtoCart" ended with "Pass" status (Total Duration: 0.0162 sec).</Description>
+    <StartTime>2022-07-05 20:55:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>LoginCart</Name>
+    <Description>Transaction "LoginCart" started.</Description>
+    <StartTime>2022-07-05 20:55:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e9d72ec59e964d72a6fabb996ba2634c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>LoginCart</Name>
+    <Description>Transaction "LoginCart" ended with "Pass" status (Total Duration: 0.0465 sec).</Description>
+    <StartTime>2022-07-05 20:55:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>307fe948bdcd4ee6b394a3351e170301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-05 20:55:08</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>f62aaad2946d40d28f1f1b53eaf19ba3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-05 20:54:58</StartTime>
+    <Duration>19</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>236dcb6760794b85a5d9008700dfc233</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user262</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-28</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res142</ResultName>
+    <RunStartTime>2022-07-05 20:54:58</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

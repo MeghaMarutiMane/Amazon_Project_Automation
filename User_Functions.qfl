@@ -1,0 +1,202 @@
+﻿'Test Case1
+Function SignIn()
+Dim searchString,Result
+URL=DataTable.Value("Url","Test Data")
+searchString=DataTable.Value("Expected_Value","Test Data")
+Browser(browserObject).Navigate URL
+Wait(5)
+Browser(browserObject).Page(pageObject).WebElement(Sign_In).Click
+
+Result=Browser(browserObject).Page(pageObject).WebElement(SI_CP).GetROProperty("text")
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "SignIn" , "Pass"
+SignIn="Pass"
+Else
+ Reporter.ReportEvent micFail, "SignIn" , "Fail"
+ SignIn="Fail"
+End if
+End Function
+
+'_______________________________________________________________________________
+'Test Case2 Check without entering values into the Sign page
+Function ValidateLogin()
+Dim searchString, Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+URL=DataTable.Value("Url","Test Data")
+Browser(browserObject).Navigate URL
+Wait(5)
+Browser(browserObject).Page(pageObject).WebElement(Sign_In).Click
+Browser(browserObject).Page(pageObject).WebButton(Continue).Click
+Result=Browser(browserObject).Page(pageObject).WebElement(Check_Point).GetROProperty("text")
+
+If Strcomp(sreachString,Result)=0 Then
+Reporter.ReportEvent micPass, "ValidateLogin" , "Pass"
+ValidateLogin="Pass"
+Else
+ Reporter.ReportEvent micFail, "ValidateLogin" , "Fail"
+ ValidateLogin="Fail"
+End if
+End Function
+'_____________________________________________________________________________________________________________________________________
+
+
+'Test Case3 Check User is able to login
+Function Login() 
+Dim UN,Pass
+URL=DataTable.Value("Url","Test Data")
+UN=DataTable.Value("Username","Test Data")
+Pass=DataTable.Value("Password","Test Data")
+
+Browser(browserObject).Navigate URL
+Browser(browserObject).Page(pageObject).WebElement(Sign_In).Click
+Browser(browserObject).Page(pageObject).WebEdit(Username).Set UN
+Browser(browserObject).Page(pageObject).WebButton(Continue).Click
+Browser(browserObject).Page(pageObject).WebEdit(Password).SetSecure Pass
+Browser(browserObject).Page(pageObject).WebButton(Sign_In_Submit).Click
+Result=Browser(browserObject).Page(pageObject).WebElement(VL_CP).GetROProperty("text")
+
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "Login" , "Pass"
+Login="Pass"
+Else
+ Reporter.ReportEvent micFail, "Login" , "Fail"
+ Login="Fail"
+End if
+End Function
+
+'_________________________________________________________________________________________________________________________________
+
+'Test Case2
+Function Logout()
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+
+Browser(browserObject).Page(pageObject).Link(Sign_In1).Click
+Browser(browserObject).Page(pageObject).WebElement(Sign_Out).Click
+'Browser("Online Shopping site in").Page("Amazon Sign In").WebElement("legalTextRow_3").Check CheckPoint("legalTextRow")
+Result=Browser(BrowserObject).Page(PageObject).WebElement(Sign_Out_CP).GetROProperty("text")
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "Logout" , "Pass"
+Logout="Pass"
+Else
+ Reporter.ReportEvent micFail, "Logout" , "Fail"
+ Logout="Fail"
+End if
+End Function
+'__________________________________________________________________________________________________________________________________________
+'Test Case5 Check After Clicking on the Pet Supplies tab page is redirect or not
+Function PetSupplies() 
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+
+Browser(browserObject).Page(pageObject).Link( PS_High).Highlight
+Browser(browserObject).Page(pageObject).Link( PS_High).Click
+Result=Browser(browserObject).Page(pageObject).WebElement(PS_CP).GetROProperty("text")
+
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "PetSupplies", "Pass"
+PetSupplies="Pass"
+Else
+ Reporter.ReportEvent micFail, "PetSupplies" , "Fail"
+ PetSupplies="Fail"
+End if
+End Function
+
+'__________________________________________________________________________________________________________________________________________
+'Test Case6
+
+Function PSContent() 
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+Browser(browserObject).Page(pageObject).WebElement(Birds).Highlight
+Browser(browserObject).Page(pageObject).WebElement(Cats).Highlight
+Browser(browserObject).Page(pageObject).WebElement(Dogs ).Highlight
+Browser(browserObject).Page(pageObject).WebElement(Fish_Aquatic).Highlight
+Browser(browserObject).Page(pageObject).WebElement(Horses).Highlight
+Browser(browserObject).Page(pageObject).WebElement(Small_Animals ).Highlight
+
+Result=Browser(browserObject).Page(pageObject).WebElement(PS_CP).GetROProperty("text")
+
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "PSContent" , "Pass"
+PSContent="Pass"
+Else
+ Reporter.ReportEvent micFail, "PSContent" , "Fail"
+ PSContent="Fail"
+End if
+End Function
+'____________________________________________________________________________________________________________________
+'Test Case7
+Function BirdsTab()
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+Browser(browserObject).Page(pageObject).WebElement(Birds).Highlight
+Browser(browserObject).Page(pageObject).WebElement(Birds).Click
+
+Result=Browser(browserObject).Page(pageObject).WebElement(Birds_CP).GetROProperty("text")
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "BirdsTab" , "Pass"
+BirdsTab="Pass"
+Else
+ Reporter.ReportEvent micFail, "BirdsTab" , "Fail"
+ BirdsTab="Fail"
+End if
+End Function
+
+
+'Test Case8
+
+Function ValidateBI() 
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+Browser(browserObject).Page(pageObject).Image(BI).Highlight
+Browser(browserObject).Page(pageObject).Image(BI).Click
+
+Result=Browser(browserObject1).Page(pageObject).WebElement(Val_BI_CP).GetROProperty("text")
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "ValidateBI" , "Pass"
+ValidateBI="Pass"
+Else
+ Reporter.ReportEvent micFail, "ValidateBI" , "Fail"
+ ValidateBI="Fail"
+End if
+End Function
+
+
+'Test Case9
+Function AddtoCart() 
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+Browser(browserObject1).Page(pageObject).WebButton(Add_Cart).Highlight
+Browser(browserObject1).Page(pageObject).WebButton(Add_Cart).Click
+Result=Browser(browserObject1).Page(pageObject).WebElement(Add_Cart_CP).GetROProperty("text")'"Added to Cart"
+
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "AddtoCart" , "Pass"
+AddtoCart="Pass"
+Else
+ Reporter.ReportEvent micFail, "AddtoCart" , "Fail"
+ AddtoCart="Fail"
+End if
+End Function
+
+'______________________________________________________________________________________________________________________
+'Test Case10
+Function LoginCart() 
+Dim searchString,Result
+searchString=DataTable.Value("Expected_Value","Test Data")
+
+Browser(browserObject).Page(pageObject).WebElement(Login_Cart).Click
+
+Result=Browser(browserObject).Page(pageObject).WebElement( Login_Cart_CP).GetROProperty("text")
+If inStr(sreachString,Result)>=0 Then
+Reporter.ReportEvent micPass, "LoginCart" , "Pass"
+Else
+ Reporter.ReportEvent micFail, "LoginCart" , "Fail"
+End if
+End Function
+
+
+
+
+

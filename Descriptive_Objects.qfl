@@ -1,0 +1,101 @@
+﻿Set browserObject= Description.Create
+browserObject("creationtime").value="0"
+
+Set browserObject1= Description.Create
+browserObject1("creationtime").value="1"
+
+Set pageObject= Description.Create
+pageObject("micclass").value="Page"
+
+Set Sign_In= Description.Create
+Sign_In("xpath").value="//DIV[@id='nav-flyout-ya-signin']/A[1]/SPAN[1]"
+
+Set SI_CP= Description.Create
+SI_CP("xpath").value="//DIV[@id='authportal-main-section']/DIV/DIV/DIV/FORM/DIV/DIV/DIV/DIV/DIV/A[@role='button']/SPAN[normalize-space()='Need help?']"
+
+Set Sign_In1= Description.Create
+Sign_In1("html id").value="nav-link-accountList"
+
+Set Sign_Out= Description.Create
+Sign_Out("xpath").value="//A[@id='nav-item-signout']/SPAN[normalize-space()='Sign Out']"
+
+Set Sign_Out_CP= Description.Create
+Sign_Out_CP("xpath").value="//DIV[@id='legalTextRow']"
+
+
+Set Create_Account= Description.Create
+Create_Account("html id").value="createAccountSubmit"
+
+Set Username= Description.Create
+Username("name").value="email"
+
+Set Continue= Description.Create
+Continue("xpath").value="//INPUT[@id='continue']"
+
+Set Check_Point= Description.Create
+Check_Point("innerhtml").value="Enter your email or mobile phone number"
+
+Set Password= Description.Create
+Password("html id").value="ap_password"
+
+Set Sign_In_Submit= Description.Create
+Sign_In_Submit("xpath").value="//INPUT[@id='signInSubmit']"
+
+Set VL_CP= Description.Create
+VL_CP("class").value="nav-a nav-a-2 a-popover-trigger a-declarative nav-progressive-attribute"
+
+Set PS_High= Description.Create
+PS_High("innerhtml").value="Pet Supplies"
+
+Set PS_CP= Description.Create
+PS_CP("xpath").value="//DIV/DIV/SPAN[normalize-space()='Department']"
+
+
+Set Birds= Description.Create
+Birds("xpath").value="//LI/SPAN[normalize-space()='Birds']/A[1]/SPAN[1]"
+
+Set Birds_CP= Description.Create
+Birds_CP("xpath").value="//DIV[@id='a-page']/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]"
+
+Set Cats= Description.Create
+Cats("xpath").value="//LI/SPAN[normalize-space()='Cats']/A[1]/SPAN[1]"
+
+Set Dogs= Description.Create
+Dogs("xpath").value="//LI/SPAN[normalize-space()='Dogs']/A[1]/SPAN[1]"
+
+Set Fish_Aquatic= Description.Create
+Fish_Aquatic("xpath").value="//LI/SPAN[normalize-space()='Fish & Aquatics']/A[1]/SPAN[1]"
+
+Set Horses= Description.Create
+Horses("xpath").value="//LI/SPAN/A[normalize-space()='Horses']/SPAN[1]"
+
+Set Small_Animals= Description.Create
+Small_Animals("xpath").value="//LI/SPAN[normalize-space()='Small Animals']/A[1]/SPAN[1]"
+
+Set BI= Description.Create
+BI("href").value="https://www.amazon.in/Boltz-Bird-Food-Budgies-Seeds/dp/B07MBH6B4F/ref=lp_4771340031_1_1"
+
+
+Set Val_BI_CP= Description.Create
+Val_BI_CP("xpath").value="//DIV[@id='selectQuantity']/SPAN/DIV/DIV/SPAN/LABEL[normalize-space()='Quantity:']"
+
+Set Add_Cart= Description.Create
+Add_Cart("xpath").value="//INPUT[@id='add-to-cart-button']"
+
+Set Add_Cart_CP= Description.Create
+Add_Cart_CP("innerhtml").value="Added to Cart"
+
+Set Login_Cart= Description.Create
+Login_Cart("xpath").value="//DIV[@id='nav-cart-count-container']/SPAN[2]"
+
+Set Login_Cart_CP= Description.Create
+Login_Cart_CP("xpath").value="//DIV[@id='sc-active-cart']/DIV/DIV/DIV/H1[normalize-space()='Shopping Cart']"
+
+
+
+
+
+
+
+
+
